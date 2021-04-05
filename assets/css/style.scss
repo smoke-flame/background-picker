@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 100px auto 0;
+}
+
+.background {
+    background-color: #ccc;
+    padding: 50px 20px;
+    border: 1px solid #000;
+}
+
+.image {
+    background-color: inherit;
+    width: 70%;
+    // height: 100px;
+    margin: 0 auto;
+
+    & img {
+        border: 1px solid #000;
+        display: block;
+        background-color: inherit;
+        width: 100%;
+        max-width: 70%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+.file {
+    margin-top: 50px;
+    display: flex;
+}
